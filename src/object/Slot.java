@@ -1,9 +1,18 @@
 package object;
 
 public class Slot extends DOE {
-
-	public Slot() {
-		
+	
+	private double d;
+	
+//	public Slot() {
+//		
+//	}
+	
+	public void setWidth(double w){
+		d=w;
+	}
+	public double getWidth(){
+		return d;
 	}
 
 }
