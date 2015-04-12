@@ -1,6 +1,6 @@
 package object;
 
-public class Lens {
+public class Lens extends OptObj {
 
 	public Lens() {
 		

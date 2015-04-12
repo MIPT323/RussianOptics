@@ -1,6 +1,6 @@
 package object;
 
-public class PointLight {
+public class PointLight extends RadSourse {
 
 	public PointLight() {
 		

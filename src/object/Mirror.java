@@ -1,6 +1,6 @@
 package object;
 
-public class Mirror {
+public class Mirror extends OptObj {
 
 	public Mirror() {
 		
