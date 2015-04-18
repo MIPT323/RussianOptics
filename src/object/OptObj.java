@@ -30,5 +30,8 @@ public class OptObj {
 	CylindricalGrid getCoordinate(){
 		return cg;
 	}
+	double getZ(){
+		return cg.getR();
+	}
 
 }
