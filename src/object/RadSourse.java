@@ -9,16 +9,22 @@ public class RadSourse extends OptObj{
 	private double kz,kr,kq;
 	private double sz,sr,sq;
 	private double polionAng;
-	private boolean polion = false;
+//	private boolean polion = false;
 	
 //	public RadSourse() {
 //		
 //	}
 	
+	public void emit(ArrayList rays, Settings s){
+		Ray one = new Ray(cg.getZ(),cg.getR(),0);
+		one.setLambda(lambda);
+	}
+	
+	
 	public void setLengthWave(double lengthWave){
 		lambda = lengthWave;
 	}
-	public double getLambda(){
+	public double getLengthWave(){
 		return lambda;
 	}
 	public void setDeltaLengthWave(double deltaLengthWave){

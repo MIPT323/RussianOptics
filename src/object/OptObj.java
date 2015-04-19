@@ -3,7 +3,7 @@ import core.*;
 //Kakoj eto klass?//
 // eto samyj obzhij klass  ego obxectov my delatj ne budem
 public class OptObj {
-	private CylindricalGrid cg;
+	protected CylindricalGrid cg;
 	
 	OptObj(){
 		cg = new CylindricalGrid();
