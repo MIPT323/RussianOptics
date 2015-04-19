@@ -1,9 +1,15 @@
 package object;
+<<<<<<< HEAD
+
+public class OptObj {
+
+=======
 import core.*;
 //Kakoj eto klass?//
 // eto samyj obzhij klass  ego obxectov my delatj ne budem
 public class OptObj {
 	protected CylindricalGrid cg;
+>>>>>>> origin/PDA
 	
 	OptObj(){
 		cg = new CylindricalGrid();

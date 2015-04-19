@@ -1,6 +1,6 @@
 package object;
 
-public class Laser extends RadSourse {
+public class Laser {
 
 //	public Laser() {
 //		

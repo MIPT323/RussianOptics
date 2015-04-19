@@ -1,5 +1,11 @@
 package object;
 
+<<<<<<< HEAD
+public class Mirror {
+
+	public Mirror() {
+		
+=======
 public class Mirror extends OptObj {
 	
 	private double n;
@@ -12,6 +18,7 @@ public class Mirror extends OptObj {
 	
 	public void setOptDen(double opticalDensity){
 		n = opticalDensity;
+>>>>>>> origin/PDA
 	}
 	public double getOptDen(){
 		return n;

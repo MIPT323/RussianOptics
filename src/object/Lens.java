@@ -1,5 +1,11 @@
 package object;
 
+<<<<<<< HEAD
+public class Lens {
+
+	public Lens() {
+		
+=======
 public class Lens extends OptObj {
 	
 	private double radius1;
@@ -41,5 +47,6 @@ public class Lens extends OptObj {
 	}
 	public double getWidth(){
 		return width;
+>>>>>>> origin/PDA
 	}
 }
