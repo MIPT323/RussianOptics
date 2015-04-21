@@ -1,12 +1,6 @@
 package object;
 
-<<<<<<< HEAD
-public class Lens {
-
-	public Lens() {
-		
-=======
-public class Lens extends OptObj {
+public class Lens extends DOE {
 	
 	private double radius1;
 	private double radius2;
@@ -30,6 +24,21 @@ public class Lens extends OptObj {
 	public double getRadius2(){
 		return radius2;
 	}
+	public double getHeigth(){
+		//PRIBLIZHENNO vozvraschaet diameter linsi
+		double sinbsinb=2*width/(radius2*radius2/radius1+radius2);
+		return 2*radius2*Math.sqrt(sinbsinb);
+	}
+	public double getAngle2(){
+		//vozvraschaet ugol po kotorim viidna linza iz centra 2
+		double sinbsinb=2*width/(radius2*radius2/radius1+radius2);
+		return Math.asin(Math.sqrt(sinbsinb));
+	}
+	public double getAngle1(){
+		//vozvraschaet ugol po kotorim viidna linza iz centra 1
+		double sinbsinb=2*width/(radius2*radius2/radius1+radius2);
+		return Math.asin(radius2*Math.sqrt(sinbsinb)/radius1);
+	}
 	public void setOptDensity(double opticalDensity){
 		n = opticalDensity;
 	}
@@ -47,6 +56,6 @@ public class Lens extends OptObj {
 	}
 	public double getWidth(){
 		return width;
->>>>>>> origin/PDA
+
 	}
 }

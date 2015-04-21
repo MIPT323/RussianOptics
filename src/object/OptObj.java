@@ -1,15 +1,11 @@
 package object;
-<<<<<<< HEAD
 
-public class OptObj {
-
-=======
 import core.*;
 //Kakoj eto klass?//
 // eto samyj obzhij klass  ego obxectov my delatj ne budem
 public class OptObj {
 	protected CylindricalGrid cg;
->>>>>>> origin/PDA
+
 	
 	OptObj(){
 		cg = new CylindricalGrid();
@@ -25,7 +21,7 @@ public class OptObj {
 	}
 	
 	
-	void setCoordinate(double w,double h,double a){
+	public void setCoordinate(double w,double h,double a){
 		cg.setZ(w);
 		cg.setR(h);
 		cg.setQ(a);
@@ -36,8 +32,8 @@ public class OptObj {
 	CylindricalGrid getCoordinate(){
 		return cg;
 	}
-	double getZ(){
-		return cg.getR();
+	public double getZ(){
+		return cg.getZ();
 	}
 
 }
